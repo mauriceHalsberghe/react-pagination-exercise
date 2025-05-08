@@ -9,7 +9,7 @@ function App() {
   const pageCount = 10;
 
   function handlePageChanged(pageNumber) {
-    // TO DO
+    setCurrentPage(pageNumber);
   }
 
   return (
